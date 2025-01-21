@@ -41,7 +41,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Navbar />
       <main className="relative">
-        <div className="absolute inset-0 bg-[url('/lovable-uploads/34452616-5628-4296-8aac-9cbae66a9cfe.png')] bg-cover bg-center opacity-20" />
+        <div className="absolute inset-0 bg-[url('/lovable-uploads/isometric-city.jpg')] bg-cover bg-center opacity-20" />
         
         <div className="page-container relative z-10">
           <div className="text-center mb-16 max-w-3xl mx-auto">
@@ -55,6 +55,7 @@ const Index = () => {
             <Button
               size="lg"
               className="bg-primary hover:bg-primary/90 text-white"
+              onClick={() => window.location.href = '/tourism'}
             >
               Get Started
             </Button>
